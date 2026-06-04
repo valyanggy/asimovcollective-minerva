@@ -14,19 +14,58 @@ const matrixProfiles = [
     id: "low",
     count: 64,
     columns: 8,
+    dotSize: "12px",
     colors: [palette.blue, palette.navy, palette.blue, palette.navy, palette.blue, palette.gold],
   },
   {
     id: "mixed",
-    count: 81,
-    columns: 9,
-    colors: [palette.blue, palette.gold, palette.blue, palette.gold, palette.navy, palette.gold],
+    count: 144,
+    columns: 12,
+    dotSize: "9.5px",
+    colors: [
+      palette.blue,
+      palette.gold,
+      palette.blue,
+      palette.gold,
+      palette.navy,
+      palette.gold,
+      palette.gold,
+      palette.blue,
+    ],
   },
   {
     id: "high",
-    count: 100,
-    columns: 10,
-    colors: [palette.gold, palette.gold, palette.gold, palette.gold, palette.gold, palette.blue],
+    count: 256,
+    columns: 16,
+    dotSize: "7.5px",
+    colors: [
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.blue,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+      palette.navy,
+      palette.gold,
+      palette.gold,
+      palette.gold,
+    ],
   },
 ] as const
 
@@ -52,7 +91,12 @@ export function MatchRateAnimation() {
               <div
                 className={`match-rate__matrix match-rate__matrix--${profile.id}`}
                 key={profile.id}
-                style={{ "--matrix-columns": profile.columns } as CSSProperties}
+                style={
+                  {
+                    "--matrix-columns": profile.columns,
+                    "--matrix-dot-size": profile.dotSize,
+                  } as CSSProperties
+                }
               >
                 {buildDots(profile.colors, profile.count).map((color, index) => (
                   <i

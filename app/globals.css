@@ -630,50 +630,43 @@
   stroke-dasharray: 6 5;
   opacity: 0;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.42));
-  animation: action-line-active 10.5s linear infinite;
+  animation: action-line-active 16.8s linear infinite;
   vector-effect: non-scaling-stroke;
 }
 
 .action-export__active-line--0,
-.action-export__pill--action-0,
-.action-export__moving-label--0 {
+.action-export__pill--action-0 {
   animation-delay: 0s;
 }
 
 .action-export__active-line--1,
-.action-export__pill--action-1,
-.action-export__moving-label--1 {
-  animation-delay: 1.5s;
+.action-export__pill--action-1 {
+  animation-delay: 2.4s;
 }
 
 .action-export__active-line--2,
-.action-export__pill--action-2,
-.action-export__moving-label--2 {
-  animation-delay: 3s;
+.action-export__pill--action-2 {
+  animation-delay: 4.8s;
 }
 
 .action-export__active-line--3,
-.action-export__pill--action-3,
-.action-export__moving-label--3 {
-  animation-delay: 4.5s;
+.action-export__pill--action-3 {
+  animation-delay: 7.2s;
 }
 
 .action-export__active-line--4,
-.action-export__pill--action-4,
-.action-export__moving-label--4 {
-  animation-delay: 6s;
+.action-export__pill--action-4 {
+  animation-delay: 9.6s;
 }
 
 .action-export__active-line--5,
-.action-export__pill--action-5,
-.action-export__moving-label--5 {
-  animation-delay: 7.5s;
+.action-export__pill--action-5 {
+  animation-delay: 12s;
 }
 
 .action-export__active-line--6,
-.action-export__pill--action-6,
-.action-export__moving-label--6 {
-  animation-delay: 9s;
+.action-export__pill--action-6 {
+  animation-delay: 14.4s;
 }
 
 .action-export__particle {
@@ -694,37 +687,37 @@
 }
 
 .action-export__particle--active-0 {
-  offset-path: path("M452.959 268.304C452.959 140.179 559.168 36.3123 690.184 36.3123");
+  offset-path: path("M472.959 282.304C472.959 154.179 579.168 50.3123 710.184 50.3123");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
 .action-export__particle--active-1 {
-  offset-path: path("M452.85 268.426C452.85 181.97 559.503 111.884 691.067 111.884");
+  offset-path: path("M472.85 282.426C472.85 195.97 579.503 125.884 711.067 125.884");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
 .action-export__particle--active-2 {
-  offset-path: path("M453.394 268.304C453.394 227.362 559.603 194.172 690.619 194.172");
+  offset-path: path("M473.394 282.304C473.394 241.362 579.603 208.172 710.619 208.172");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
 .action-export__particle--active-3 {
-  offset-path: path("M453.395 268.304L690.62 268.304");
+  offset-path: path("M473.395 282.304L710.62 282.304");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
 .action-export__particle--active-4 {
-  offset-path: path("M452.85 268.426C452.85 311.654 559.503 346.698 691.067 346.698");
+  offset-path: path("M472.85 282.426C472.85 325.654 579.503 360.698 711.067 360.698");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
 .action-export__particle--active-5 {
-  offset-path: path("M452.879 268.426C452.879 354.882 559.532 424.969 691.096 424.969");
+  offset-path: path("M472.879 282.426C472.879 368.882 579.532 438.969 711.096 438.969");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
 .action-export__particle--active-6 {
-  offset-path: path("M453.393 268.304C453.393 396.43 559.602 500.296 690.618 500.296");
+  offset-path: path("M473.393 282.304C473.393 410.43 579.602 514.296 710.618 514.296");
   animation: action-branch-particle var(--particle-duration) linear var(--particle-delay) infinite;
 }
 
@@ -768,7 +761,7 @@
   left: 710px;
   opacity: 0.5;
   transform: translateY(-50%);
-  animation: action-pill-active 10.5s ease-in-out infinite;
+  animation: action-pill-active 16.8s ease-in-out infinite;
 }
 
 .action-export__pill--action-0 {
@@ -786,7 +779,7 @@
   text-transform: uppercase;
   white-space: nowrap;
   offset-rotate: auto;
-  animation: action-label-travel 10.5s ease-in-out infinite;
+  animation: action-label-travel 16.8s ease-in-out infinite;
 }
 
 .action-export__moving-label--0 {
@@ -818,45 +811,38 @@
 }
 
 .action-export__pill--action-0,
-.action-export__active-line--0,
-.action-export__moving-label--0 {
+.action-export__active-line--0 {
   animation-delay: 0s;
 }
 
 .action-export__pill--action-1,
-.action-export__active-line--1,
-.action-export__moving-label--1 {
-  animation-delay: 1.5s;
+.action-export__active-line--1 {
+  animation-delay: 2.4s;
 }
 
 .action-export__pill--action-2,
-.action-export__active-line--2,
-.action-export__moving-label--2 {
-  animation-delay: 3s;
+.action-export__active-line--2 {
+  animation-delay: 4.8s;
 }
 
 .action-export__pill--action-3,
-.action-export__active-line--3,
-.action-export__moving-label--3 {
-  animation-delay: 4.5s;
+.action-export__active-line--3 {
+  animation-delay: 7.2s;
 }
 
 .action-export__pill--action-4,
-.action-export__active-line--4,
-.action-export__moving-label--4 {
-  animation-delay: 6s;
+.action-export__active-line--4 {
+  animation-delay: 9.6s;
 }
 
 .action-export__pill--action-5,
-.action-export__active-line--5,
-.action-export__moving-label--5 {
-  animation-delay: 7.5s;
+.action-export__active-line--5 {
+  animation-delay: 12s;
 }
 
 .action-export__pill--action-6,
-.action-export__active-line--6,
-.action-export__moving-label--6 {
-  animation-delay: 9s;
+.action-export__active-line--6 {
+  animation-delay: 14.4s;
 }
 
 @keyframes action-particle {
@@ -882,12 +868,18 @@
     offset-distance: 0%;
     transform: scale(0.6);
   }
-  3%,
+  3% {
+    opacity: 1;
+    offset-distance: 8%;
+  }
   12% {
     opacity: 1;
+    offset-distance: 72%;
+  }
+  14% {
+    opacity: 0;
     offset-distance: 100%;
   }
-  13%,
   100% {
     opacity: 0;
     offset-distance: 100%;
@@ -900,10 +892,10 @@
     opacity: 1;
     stroke-dashoffset: 0;
   }
-  13% {
+  12% {
     opacity: 1;
   }
-  15%,
+  14%,
   100% {
     opacity: 0;
     stroke-dashoffset: -22;
@@ -912,11 +904,11 @@
 
 @keyframes action-pill-active {
   0%,
-  13% {
+  12% {
     opacity: 1;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.32), 0 1px 0 rgba(0, 0, 0, 0.28);
   }
-  15%,
+  14%,
   100% {
     opacity: 0.5;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.28);
@@ -1037,7 +1029,7 @@
 
 .match-rate__matrix {
   display: grid;
-  grid-template-columns: repeat(var(--matrix-columns), 12px);
+  grid-template-columns: repeat(var(--matrix-columns), var(--matrix-dot-size));
   justify-content: space-between;
   align-content: space-between;
   width: 260px;
@@ -1049,8 +1041,8 @@
 
 .match-rate__matrix i {
   display: block;
-  width: 12px;
-  height: 12px;
+  width: var(--matrix-dot-size);
+  height: var(--matrix-dot-size);
   border-radius: 999px;
   background: var(--dot-base);
   animation: match-rate-dot-shuffle var(--dot-duration) steps(1, end) var(--dot-delay) infinite;

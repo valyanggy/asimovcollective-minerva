@@ -17,13 +17,13 @@ const exportParticles = [
   { route: "input", duration: "5.7s", delay: "-2.2s" },
   { route: "input", duration: "6.5s", delay: "-4.1s" },
   { route: "input", duration: "4.9s", delay: "-1.5s" },
-  { route: "active-0", duration: "10.5s", delay: "0s" },
-  { route: "active-1", duration: "10.5s", delay: "1.5s" },
-  { route: "active-2", duration: "10.5s", delay: "3s" },
-  { route: "active-3", duration: "10.5s", delay: "4.5s" },
-  { route: "active-4", duration: "10.5s", delay: "6s" },
-  { route: "active-5", duration: "10.5s", delay: "7.5s" },
-  { route: "active-6", duration: "10.5s", delay: "9s" },
+  { route: "active-0", duration: "16.8s", delay: "0s" },
+  { route: "active-1", duration: "16.8s", delay: "2.4s" },
+  { route: "active-2", duration: "16.8s", delay: "4.8s" },
+  { route: "active-3", duration: "16.8s", delay: "7.2s" },
+  { route: "active-4", duration: "16.8s", delay: "9.6s" },
+  { route: "active-5", duration: "16.8s", delay: "12s" },
+  { route: "active-6", duration: "16.8s", delay: "14.4s" },
 ] as const
 
 const activePaths = [
