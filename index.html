@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Map Motion Sketch</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="stage" aria-label="Motion exploration sketch">
+        <div class="scene" data-step="1">
+          <div class="color-field" aria-hidden="true">
+            <div class="source-image"></div>
+            <div class="gradient-map"></div>
+          </div>
+
+          <article class="profile-card" aria-label="Generated profile component">
+            <div class="draw-line draw-top"></div>
+            <div class="draw-line draw-right"></div>
+            <div class="draw-line draw-bottom"></div>
+            <div class="draw-line draw-left"></div>
+            <div class="card-content">
+              <!-- <p class="eyebrow">Portfolio Match</p> -->
+              <h1>Angela Jones</h1>
+              <p class="role">Senior Director of Marketing</p>
+              <dl class="metrics">
+                <div>
+                  <dt>Projects</dt>
+                  <dd>35</dd>
+                </div>
+                <div>
+                  <dt>Score</dt>
+                  <dd>300</dd>
+                </div>
+                <div>
+                  <dt>Reach</dt>
+                  <dd>4.5k</dd>
+                </div>
+              </dl>
+              <div class="tags" aria-label="Focus areas">
+                <span>Brand</span>
+                <span>Growth</span>
+                <span>Strategy</span>
+                <span>Arts</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <nav class="controls" aria-label="Storyboard steps">
+        <button type="button" class="control active" data-step="1">
+          <span>1</span>
+          Image
+        </button>
+        <button type="button" class="control" data-step="2">
+          <span>2</span>
+          Gradient
+        </button>
+        <button type="button" class="control" data-step="3">
+          <span>3</span>
+          Line
+        </button>
+        <button type="button" class="control" data-step="4">
+          <span>4</span>
+          Component
+        </button>
+      </nav>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
