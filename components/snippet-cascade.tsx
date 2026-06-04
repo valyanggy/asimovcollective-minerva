@@ -7,20 +7,24 @@ import { ActionExportAnimation } from "@/components/action-export-animation"
 type Snippet = {
   id: string
   title: string
+  backgroundClass: string
 }
 
 const snippets: Snippet[] = [
   {
     id: "orbital-ring",
     title: "Audience Enrichment",
+    backgroundClass: "snippet-cascade__panel--background-1",
   },
   {
     id: "axis-drift",
     title: "Axis Drift",
+    backgroundClass: "snippet-cascade__panel--background-2",
   },
   {
     id: "nested-spin",
     title: "Nested Spin",
+    backgroundClass: "snippet-cascade__panel--background-3",
   },
 ]
 
@@ -34,15 +38,15 @@ export function SnippetCascade() {
         >
           <div className="w-full max-w-[1560px] rounded-[3px] border border-black/5 bg-white p-3 shadow-[0_24px_80px_rgba(0,0,0,0.12)] md:p-4">
             {snippet.id === "orbital-ring" ? (
-              <div className="h-[88vh] min-h-[560px] overflow-hidden rounded-[2px] border border-black/10 bg-[#cfcfcf]">
+              <div className={`snippet-cascade__panel ${snippet.backgroundClass}`}>
                 <AudienceEnrichmentAnimation />
               </div>
             ) : snippet.id === "axis-drift" ? (
-              <div className="h-[88vh] min-h-[560px] overflow-hidden rounded-[2px] border border-black/10 bg-[#cfcfcf]">
+              <div className={`snippet-cascade__panel ${snippet.backgroundClass}`}>
                 <JourneyMappingAnimation />
               </div>
             ) : (
-              <div className="h-[88vh] min-h-[560px] overflow-hidden rounded-[2px] border border-black/10 bg-[#cfcfcf]">
+              <div className={`snippet-cascade__panel ${snippet.backgroundClass}`}>
                 <ActionExportAnimation />
               </div>
             )}
