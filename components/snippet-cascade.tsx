@@ -5,6 +5,7 @@ import { JourneyMappingAnimation } from "@/components/journey-mapping-animation"
 import { ActionExportAnimation } from "@/components/action-export-animation"
 import { MatchRateAnimation } from "@/components/match-rate-animation"
 import { DataCoverageAnimation } from "@/components/data-coverage-animation"
+import { IntegrationFlowAnimation } from "@/components/integration-flow-animation"
 
 type Snippet = {
   id: string
@@ -38,6 +39,11 @@ const snippets: Snippet[] = [
     title: "Data Coverage",
     backgroundClass: "snippet-cascade__panel--plain",
   },
+  {
+    id: "integration-flow",
+    title: "Integration Flow",
+    backgroundClass: "snippet-cascade__panel--plain",
+  },
 ]
 
 export function SnippetCascade() {
@@ -46,7 +52,8 @@ export function SnippetCascade() {
     if (id === "axis-drift") return <JourneyMappingAnimation />
     if (id === "nested-spin") return <ActionExportAnimation />
     if (id === "match-rate") return <MatchRateAnimation />
-    return <DataCoverageAnimation />
+    if (id === "data-coverage") return <DataCoverageAnimation />
+    return <IntegrationFlowAnimation />
   }
 
   return (
