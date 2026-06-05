@@ -95,13 +95,15 @@ export function IntegrationFlowAnimation() {
         <div className="integration-flow__customer-card">
           <h3>CUSTOMER DATA</h3>
           <div className="integration-flow__logo-window">
-            <div className="integration-flow__logo-track">
-              {logoRail.map((logo, index) => (
-                <div className="integration-flow__logo-item" key={`${logo.name}-${index}`}>
-                  <img src={logo.src} alt="" />
-                  <span>{logo.name}</span>
-                </div>
-              ))}
+            <div className="integration-flow__logo-viewport">
+              <div className="integration-flow__logo-track">
+                {logoRail.map((logo, index) => (
+                  <div className="integration-flow__logo-item" key={`${logo.name}-${index}`}>
+                    <img src={logo.src} alt="" />
+                    <span>{logo.name}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

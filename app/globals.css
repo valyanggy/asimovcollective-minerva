@@ -1383,6 +1383,12 @@
   overflow: hidden;
 }
 
+.integration-flow__logo-viewport {
+  position: absolute;
+  inset: 0 24px;
+  overflow: hidden;
+}
+
 .integration-flow__logo-window::before,
 .integration-flow__logo-window::after {
   content: "";
@@ -1395,20 +1401,20 @@
 }
 
 .integration-flow__logo-window::before {
-  left: -1px;
-  width: 96px;
-  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.96) 18%, rgba(255, 255, 255, 0) 100%);
+  left: 20px;
+  width: 54px;
+  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.98) 54%, rgba(255, 255, 255, 0) 100%);
 }
 
 .integration-flow__logo-window::after {
-  right: -1px;
-  width: 110px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.98) 58%, #ffffff 100%);
+  right: 20px;
+  width: 64px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.98) 52%, #ffffff 100%);
 }
 
 .integration-flow__logo-track {
   display: flex;
-  gap: 28px;
+  gap: 20px;
   width: max-content;
   animation: integration-logo-rail 22s linear infinite;
 }
@@ -1540,7 +1546,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-992px);
+    transform: translateX(-928px);
   }
 }
 
